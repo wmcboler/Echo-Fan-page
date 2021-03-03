@@ -4,7 +4,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 section{
-    background-color: hsla(330, 43%, 80%, 0.5);
+    background-color: hsla(330, 43%, 80%, 0.25);
 }
 .title{
     text-align: center;
