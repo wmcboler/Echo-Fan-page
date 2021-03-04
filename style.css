@@ -1,10 +1,45 @@
+*{
+    margin:0;
+    padding: 0;
+}
+/* universal style */
+header{
+    background-color: hsl(180,43%,30%);
+    border-bottom: 1px solid black;
+
+}
+
+
 body{
     background-color: hsl(60, 78%, 70%);
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
+h1{
+    text-align:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+h1,
+h3 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+figure {
+    width:350px;
+    height: 450;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 section{
     background-color: hsla(330, 43%, 80%, 0.25);
+    width:75%;
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid hsl(180,43%,30%);
+
 }
 .title{
     text-align: center;
@@ -17,5 +52,31 @@ section{
     font-size: 20px;
 }
 .center-text {
+    text-align: center;
+}
+#main-image-area {
+    width: 95%;
+}
+.center-image {
+    margin: 0 auto;
+}
+ #trick-list-area{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+#trick-list-area p{
+    color:red;
+    padding-top: 10px;
+    font-size: 20px;
+}
+#trick-list-area ul{
+    padding: 20px 5px;
+}
+#main-image {
+    border-radius: 10px;
+    border: 1px solid hsl(180,43%,30%);
+}
+#contact{
     text-align: center;
 }
