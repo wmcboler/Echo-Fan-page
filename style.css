@@ -4,7 +4,7 @@
 }
 /* universal style */
 header{
-    background-color: hsl(180,43%,30%);
+    background-color: hsl(180,43%,50%);
     border-bottom: 1px solid black;
 
 }
@@ -45,12 +45,12 @@ section{
     margin: 30px auto;
     padding: 10px;
     border-radius: 10px;
-    border: 1px solid hsl(180,43%,30%);
+    border: 1px solid hsl(180,43%,50%);
 
 }
 .title{
     text-align: center;
-    color:hsl(180,43%,30%);
+    color:hsl(180,43%,50%);
     font-size: 50px;
     font-weight: bold;
 }
